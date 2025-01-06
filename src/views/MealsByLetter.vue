@@ -2,7 +2,7 @@
   <div class="p-8 pb-0 text-emerald-400">
     <h1 class="text-4xl font-bold mb-4">Meals By Letter</h1>
   </div>
-  <div class="flex flex-wrap justify-center gap-2 mt-3">
+  <div class="flex flex-wrap mx-auto justify-center gap-2 mt-3">
     <router-link
       :to="{ name: 'byLetter', params: { letter } }"
       v-for="letter of letters"
