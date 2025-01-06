@@ -1,15 +1,14 @@
 <template>
-  <header class="bg-white shadow h-16 flex justify-between items-stretch">
-    <div class="text-4xl font-bold p-4">
+  <header
+    class="bg-white shadow h-16 flex justify-between mx-auto overflow-hidden"
+  >
+    <!-- <div class="text-2xl font-bold p-4">
       Your<span class="text-emerald-600">Meal.</span>
-    </div>
+    </div> -->
+    <router-link :to="{ name: 'home' }" class="text-2xl font-bold p-4">
+      Your<span class="text-emerald-600">Meal.</span>
+    </router-link>
     <div class="flex items-center gap-1">
-      <router-link
-        :to="{ name: 'home' }"
-        class="inline-flex items-center px-2 h-full transition-colors text-emerald-400 hover:text-white font-semibold hover:bg-emerald-300"
-      >
-        Home
-      </router-link>
       <router-link
         :to="{ name: 'byName' }"
         class="inline-flex items-center px-2 h-full transition-colors text-emerald-400 hover:text-white font-semibold hover:bg-emerald-300"
