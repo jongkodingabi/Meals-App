@@ -23,8 +23,11 @@
             </h1>
             <div class="w-20 h-2 bg-emerald-600 my-4"></div>
             <p class="text-xl mb-10">
-              Go on an adventure to find your favorite, delicious, and
-              interesting food, and also your way to make your favorite food.
+              Go on an adventure to find your favorite, delicious,
+              <span class="text-emerald-500"
+                >and interesting food, and also your way to make your favorite
+                food.</span
+              >
             </p>
             <MainButton>See More</MainButton>
           </div>
